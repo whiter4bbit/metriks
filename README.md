@@ -375,7 +375,7 @@ will display:
 
 ## Sematext Metrics Reporter
 
-Sends metrics to [SPM](http://sematext.com/spm/index.html) every 60 seconds.
+Sends metrics to [SPM](http://sematext.com/spm/index.html) every 60 seconds. Requires [sematext-metrics gem](http://github.com/sematext/sematext-metrics-gem)
 
 ``` ruby
   reporter = Metriks::Reporter::SematextMetrics.new :interval => 60, :token => "[token]"
